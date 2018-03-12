@@ -1,0 +1,35 @@
+body {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: rgb(76, 55, 161);
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.btn-txt {
+    color: rgb(235, 167, 9) !important;
+}
+
+.btn-survey {
+    background-color: rgb(76, 55, 161);
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+hr {
+    border: 2px solid rgb(76, 55, 161);
+}

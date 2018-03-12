@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Friend Finder</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet'>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm'
+        crossorigin='anonymous'>
+    <!-- <style>
+        body {
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: rgb(76, 55, 161);
+        }
+
+        body {
+            background-image: url('./background.jpg');
+            background-size: cover;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        .btn-txt {
+            color: rgb(235, 167, 9) !important;
+        }
+
+        .btn-survey {
+            background-color: rgb(76, 55, 161);
+        }
+
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        hr {
+            border: 2px solid rgb(76, 55, 161);
+        }
+    </style> -->
+</head>
+
+<body>
+    <!-- Bootstrap Container -->
+    <div class='container-fluid'>
+        <h2>Survey Questions</h2>
+        <hr>
+        <h3>About You</h3>
+        <h4>Name (Required)</h4>
+        <input type='text' id='name' class='form-control' required>
+        <h4>Link to Photo Image (Required)</h4>
+        <input type='text' id='photo' class='form-control' required>
+        <hr>
+        <h3>
+            <strong> Question 1</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q1' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q1'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 2</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q2' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q2'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 3</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q3' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q3'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 4</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q4' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q4'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 5</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q5' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q5'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 6</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q6' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q6'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 7</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q7' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q7'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 8</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q8' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q8'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 9</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q9' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q9'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+        <h3>
+            <strong> Question 10</strong>
+        </h3>
+        <h4>QuestionGoesHere</h4>
+        <div class='dropdown'>
+            <button class='btn btn-survey dropdown-toggle' type='button' id='q10' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection"> Select an option</span>
+            </button>
+            <div class='dropdown-menu' aria-labelledby='q10'>
+                <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
+                <button class='dropdown-item' type='button' value=2>2</button>
+                <button class='dropdown-item' type='button' value=3>3</button>
+                <button class='dropdown-item' type='button' value=4>4</button>
+                <button class='dropdown-item' type='button' value=5>5 (Strongly agree)</button>
+            </div>
+        </div>
+
+        <button id='survey-submit' type='submit' class='btn-lg btn-block btn-survey mt-4'>
+            <span class='btn-txt'>Submit</span>
+        </button>
+
+        <!-- End Bootstrap Container -->
+    </div>
+
+    <!-- Javscript -->
+    <!-- jQuery -->
+    <script src='https://code.jquery.com/jquery-3.3.1.min.js' integrity='sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8='
+        crossorigin='anonymous'>
+    </script>
+    <!-- Boostrap JS -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js' integrity='sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q'
+        crossorigin='anonymous'></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js' integrity='sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl'
+        crossorigin='anonymous'></script>
+    <!-- custom JS -->
+    <script>
+        $('.dropdown-menu button').click(function () {
+            var selectText = $(this).text();
+            var selectVal = $(this).val();
+            $(this).parents(".dropdown").find('.selection').text(selectText);
+            $(this).parents(".dropdown").find('.btn').val(selectVal);
+        });
+        const sendInfo = (info) => {
+            $.ajax({
+                url: '/api/friends',
+                method: 'POST',
+                dataType: 'json',
+                data: info,
+            }).done((data) => {
+                // Do Modal stuff here
+            })
+        }
+        $('#survey-submit').on('click', (event) => {
+            event.preventDefault();
+            let newFriend = {
+                name: '',
+                photo: '',
+                scores: []
+            }
+            newFriend.name = $('#name').val();
+            newFriend.photo = $('#photo').val();
+            for (let i = 1; i <= 10; i++) {
+                let score = $(`#q${[i]}`).val();
+                score = parseInt(score);
+                newFriend.scores.push(score);
+            }
+            console.log(newFriend);
+            sendInfo(newFriend);
+        })
+    </script>
+</body>
+
+</html>

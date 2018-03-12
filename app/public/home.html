@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Friend Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Permanent Marker', cursive;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4 {
+            color: rgb(76, 55, 161);
+        }
+
+        body {
+            background-image: url('./background.jpg');
+            background-size: cover;
+        }
+
+        a {
+            text-decoration: none !important;
+        }
+
+        .btn-txt {
+            color: rgb(235, 167, 9) !important;
+        }
+
+        .btn-survey {
+            background-color: rgb(76, 55, 161);
+        }
+
+        .jumbotron {
+            background-color: rgba(0, 0, 0, 0);
+        }
+
+        hr {
+            border: 2px solid rgb(76, 55, 161);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Bootstrap Container -->
+    <div class="container-fluid">
+        <div class="jumbotron">
+            <div class="row justify-content-center">
+                <div class="col text-center">
+                    <h1>Friend Finder</h1>
+                    <hr>
+                    <h3>Take a brief survey and find the person with the best compatibility!</h3>
+                    <a href="/survey">
+                        <button type="button" class="btn-lg btn-survey btn-block mt-4">
+                            <h4 class="btn-txt">Take Survey</h4>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <a href="/api/friends"> API Friends List</a>
+                |
+                <a href="https://github.com/Jongtelles/friend-finder"> Github Repo</a>
+            </div>
+        </footer>
+        <!-- End Bootstrap Container -->
+    </div>
+
+</body>
+
+</html>
