@@ -1,17 +1,13 @@
 body {
-    font-family: 'Permanent Marker', cursive;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: rgb(76, 55, 161);
-}
-
-body {
+    font-family: 'Rammetto One', cursive;
     background-image: url('../images/background.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(115, 255, 73)
+}
+
+h4 {
+    color: rgb(115, 255, 73)
 }
 
 a {
@@ -19,11 +15,16 @@ a {
 }
 
 .btn-txt {
-    color: rgb(235, 167, 9) !important;
+    color: rgb(58, 255, 206) !important;
 }
 
 .btn-survey {
-    background-color: rgb(76, 55, 161);
+    color: rgb(58, 255, 206);
+}
+
+.btn,
+.btn-block {
+    background-color: rgb(62, 21, 245);
 }
 
 .jumbotron {
@@ -31,5 +32,6 @@ a {
 }
 
 hr {
-    border: 2px solid rgb(76, 55, 161);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255)
 }

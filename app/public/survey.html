@@ -2,50 +2,13 @@
 <html>
 
 <head>
-    <meta charset='utf-8' />
+    <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Friend Finder</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css' integrity='sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm'
         crossorigin='anonymous'>
-    <!-- <style>
-        body {
-            font-family: 'Permanent Marker', cursive;
-        }
-
-        h1,
-        h2,
-        h3,
-        h4 {
-            color: rgb(76, 55, 161);
-        }
-
-        body {
-            background-image: url('./background.jpg');
-            background-size: cover;
-        }
-
-        a {
-            text-decoration: none !important;
-        }
-
-        .btn-txt {
-            color: rgb(235, 167, 9) !important;
-        }
-
-        .btn-survey {
-            background-color: rgb(76, 55, 161);
-        }
-
-        .jumbotron {
-            background-color: rgba(0, 0, 0, 0);
-        }
-
-        hr {
-            border: 2px solid rgb(76, 55, 161);
-        }
-    </style> -->
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
 
 <body>
@@ -55,17 +18,17 @@
         <hr>
         <h3>About You</h3>
         <h4>Name (Required)</h4>
-        <input type='text' id='name' class='form-control' required>
+        <input type='text' id='name' class='verify' required>
         <h4>Link to Photo Image (Required)</h4>
-        <input type='text' id='photo' class='form-control' required>
+        <input type='text' id='photo' class='verify' required>
         <hr>
         <h3>
-            <strong> Question 1</strong>
+            <strong>Question 1</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>One who deceives will always find those who allow themselves to be deceived.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q1' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
-                <span class="selection"> Select an option</span>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q1' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+                <span class="selection">Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q1'>
                 <button class='dropdown-item' type='button' value=1>1 (Strongly disagree)</button>
@@ -78,9 +41,9 @@
         <h3>
             <strong> Question 2</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>Surprise is the greatest gift which life can grant us.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q2' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q2' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q2'>
@@ -94,9 +57,9 @@
         <h3>
             <strong> Question 3</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>Fortune favors the prepared mind.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q3' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q3' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q3'>
@@ -110,9 +73,9 @@
         <h3>
             <strong> Question 4</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>Those who make peaceful revolution impossible will make violent revolution inevitable.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q4' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q4' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q4'>
@@ -126,9 +89,9 @@
         <h3>
             <strong> Question 5</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>We are what we pretend to be, so we must be careful about what we pretend to be.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q5' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q5' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q5'>
@@ -142,9 +105,9 @@
         <h3>
             <strong> Question 6</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>Travel is fatal to prejudice, bigotry, and narrow-mindedness.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q6' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q6' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q6'>
@@ -158,9 +121,9 @@
         <h3>
             <strong> Question 7</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>If knowledge can create problems, it is not through ignorance that we can solve them.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q7' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q7' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q7'>
@@ -174,9 +137,11 @@
         <h3>
             <strong> Question 8</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>Nothing in life is to be feared; it is only to be understood. Now is the time to understand more so that we may fear
+            less.
+        </h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q8' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q8' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q8'>
@@ -190,9 +155,9 @@
         <h3>
             <strong> Question 9</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>You can't be brave if you've only had wonderful things happen to you.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q9' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q9' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q9'>
@@ -206,9 +171,11 @@
         <h3>
             <strong> Question 10</strong>
         </h3>
-        <h4>QuestionGoesHere</h4>
+        <h4>I want to stay as close to the edge as I can without going over. Out on the edge you see all kinds of things you
+            can't see from the center.</h4>
         <div class='dropdown'>
-            <button class='btn btn-survey dropdown-toggle' type='button' id='q10' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false'>
+            <button class='btn btn-survey dropdown-toggle verify' type='button' id='q10' data-toggle='dropdown' aria-haspopup='true'
+                aria-expanded='false'>
                 <span class="selection"> Select an option</span>
             </button>
             <div class='dropdown-menu' aria-labelledby='q10'>
@@ -224,6 +191,33 @@
             <span class='btn-txt'>Submit</span>
         </button>
 
+        <!-- Modal -->
+        <div id="modal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Best Friend</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <h2 id="friendName"></h2>
+                        <img id="friendImg" src="" alt="">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container">
+                <a href="/api/friends"> API Friends List</a>
+                |
+                <a href="https://github.com/Jongtelles/friend-finder"> Github Repo</a>
+            </div>
+        </footer>
         <!-- End Bootstrap Container -->
     </div>
 
@@ -252,26 +246,43 @@
                 dataType: 'json',
                 data: info,
             }).done((data) => {
-                // Do Modal stuff here
+                console.log(data);
+                $('#friendName').text(data.name);
+                $('#friendImg').attr('src', data.photo);
+                $('#friendImg').addClass('img-fluid');
+                $('#modal').modal('toggle');
             })
         }
         $('#survey-submit').on('click', (event) => {
             event.preventDefault();
-            let newFriend = {
-                name: '',
-                photo: '',
-                scores: []
+
+            function validater() {
+                let valid = true;
+                $('.verify').each(function () {
+                    if ($(this).val() == "")
+                        valid = false;
+                })
+                return valid;
             }
-            newFriend.name = $('#name').val();
-            newFriend.photo = $('#photo').val();
-            for (let i = 1; i <= 10; i++) {
-                let score = $(`#q${[i]}`).val();
-                score = parseInt(score);
-                newFriend.scores.push(score);
+            if (validater() == true) {
+                let newFriend = {
+                    name: '',
+                    photo: '',
+                    scores: []
+                }
+                newFriend.name = $('#name').val();
+                newFriend.photo = $('#photo').val();
+                for (let i = 1; i <= 10; i++) {
+                    let score = $(`#q${[i]}`).val();
+                    score = parseInt(score);
+                    newFriend.scores.push(score);
+                }
+                console.log(newFriend);
+                sendInfo(newFriend);
+            } else {
+                alert('Please fill out all information before proceeding!');
             }
-            console.log(newFriend);
-            sendInfo(newFriend);
-        })
+        });
     </script>
 </body>
 
